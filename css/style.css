@@ -1,0 +1,63 @@
+.jumbotron img{
+	width: 200px;
+	height: 200px;
+	border: 4px solid lightskyblue;
+}
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section{
+	min-height: 900px;
+}
+
+.gallery{
+	background-color: #eee;
+}
+
+footer{
+	width: 100%;
+	background-color: #333;
+	height: 65px;
+}
+
+footer p{
+	margin-top: 25px;
+	color: #aaa;
+	font-size: .9em;
+	justify-content: flex-end;
+}
+
+header{
+	width: 100%;
+	top: 0;
+	background-color: #333;
+	position: fixed;
+	z-index: 9999;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+header nav{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header nav .title h2{
+	float: left;
+	line-height: 55px;
+}
+
+header nav ul{
+	margin: 0;
+	padding: 0;
+	float:right;
+	line-height: 55px;
+}
+
+header nav ul a{
+	padding: 0 25px;
+	color: whitesmoke;
+}
